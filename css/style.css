@@ -1,0 +1,110 @@
+body {
+    background-color: #1e293b;
+}
+
+.sidebar {
+    display: block;
+    align-items: center;
+    position: fixed;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    height: 90%;
+    width: 190px;
+    background-color: black;
+}
+
+.sidebar .image-text {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 100px;
+    width: 100%;
+}
+
+.sidebar .image-text button img {
+    width: 15px;
+}
+
+.image-text span {
+    font-family: Inter,sans-serif,Avenir,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    margin: 10px;
+    color: white;
+}
+
+
+.image-text img {
+    width: 30px;
+}
+
+.image-text button {
+    margin: 22px;
+}
+
+.arrow {
+    position: fixed;
+    text-align: center;
+    display: block;
+    background: orange;
+    border-radius: 50%;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    margin: 215px;
+    color: white;
+
+}
+
+.menu-bar .menu-links .top-links .links img {
+    width: 22px;
+}
+
+.menu-bar .menu-links .top-links .links span {
+    font-family: Inter,sans-serif,Avenir,Helvetica,Arial,sans-serif;
+    color: white;
+}
+
+.sidebar .menu-bar .menu-links .top-links .links span {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 15px;
+    font-size: 15px;
+}
+
+.menu-bar .menu-links .bottom-links .links span {
+    font-family: Inter,sans-serif,Avenir,Helvetica,Arial,sans-serif;
+    margin: 10px;
+    color: white;
+}
+
+.sidebar .menu-bar .menu-links .bottom-links .links span {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    margin: 15px;
+    font-size: 15px;
+}
+
+.sidebar .user-list {
+    border-top: 1px solid #fff;
+}
+
+.user-list .avatar img {
+    position: relative;
+    bottom: -163px;
+    width: 50px;
+}
+
+.user-list .settings img {
+    position: relative;
+    bottom: -125px;
+    right: -150px;
+    width: 20px;
+}
+
+
+
+
+
