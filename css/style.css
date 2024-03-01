@@ -1,11 +1,14 @@
 body {
     background-color: #1e293b;
+    font-family: Inter,sans-serif,Avenir,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    color: white;
 }
 
 .sidebar {
     display: block;
+    justify-content: start;
     align-items: center;
-    position: fixed;
     border-radius: 10px;
     padding-left: 20px;
     padding-right: 10px;
@@ -22,15 +25,14 @@ body {
     width: 100%;
 }
 
-.sidebar .image-text button img {
-    width: 15px;
+.image-text span {
+    margin: 10px;
 }
 
-.image-text span {
-    font-family: Inter,sans-serif,Avenir,Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    margin: 10px;
-    color: white;
+.links {
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 
 
@@ -46,26 +48,21 @@ body {
     position: fixed;
     text-align: center;
     display: block;
-    background: orange;
+    background: #1e293b;
     border-radius: 50%;
     line-height: 35px;
     width: 35px;
     height: 35px;
-    margin: 215px;
+    margin: 185px;
     color: white;
 
 }
 
-.menu-bar .menu-links .top-links .links img {
+.links img {
     width: 22px;
 }
 
-.menu-bar .menu-links .top-links .links span {
-    font-family: Inter,sans-serif,Avenir,Helvetica,Arial,sans-serif;
-    color: white;
-}
-
-.sidebar .menu-bar .menu-links .top-links .links span {
+.links span {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -73,38 +70,18 @@ body {
     font-size: 15px;
 }
 
-.menu-bar .menu-links .bottom-links .links span {
-    font-family: Inter,sans-serif,Avenir,Helvetica,Arial,sans-serif;
-    margin: 10px;
-    color: white;
+.bottom-links .links {
+    margin-top: 90px;
 }
 
-.sidebar .menu-bar .menu-links .bottom-links .links span {
+.user-list {
     display: flex;
-    justify-content: space-around;
-    flex-direction: column-reverse;
-    margin: 15px;
-    font-size: 15px;
-}
-
-.sidebar .user-list {
+    justify-content: start;
+    align-items: center;
     border-top: 1px solid #fff;
+    margin-top: 150px;
+    
+    img {
+        width: 50px;
+    }
 }
-
-.user-list .avatar img {
-    position: relative;
-    bottom: -163px;
-    width: 50px;
-}
-
-.user-list .settings img {
-    position: relative;
-    bottom: -125px;
-    right: -150px;
-    width: 20px;
-}
-
-
-
-
-
