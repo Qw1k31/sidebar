@@ -1,87 +1,97 @@
 body {
-    background-color: #1e293b;
-    font-family: Inter,sans-serif,Avenir,Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    color: white;
+  background-color: #1e293b;
+  font-family: Inter, sans-serif, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: white;
 }
 
 .sidebar {
-    display: block;
-    justify-content: start;
-    align-items: center;
-    border-radius: 10px;
-    padding-left: 20px;
-    padding-right: 10px;
-    height: 90%;
-    width: 190px;
-    background-color: black;
+  display: block;
+  justify-content: start;
+  align-items: center;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  height: 90dvh;
+  width: 190px;
+  background-color: black;
 }
 
 .sidebar .image-text {
-    display: flex;
-    align-items: center;
-    position: relative;
-    height: 100px;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 100px;
+  width: 100%;
 }
 
-.image-text span {
-    margin: 10px;
+.image-text img {
+  width: 30px;
 }
 
 .links {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-}
-
-
-.image-text img {
-    width: 30px;
-}
-
-.image-text button {
-    margin: 22px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
 .arrow {
-    position: fixed;
-    text-align: center;
-    display: block;
-    background: #1e293b;
-    border-radius: 50%;
-    line-height: 35px;
-    width: 35px;
-    height: 35px;
-    margin: 185px;
-    color: white;
-
+  position: fixed;
+  text-align: center;
+  display: block;
+  background: #1e293b;
+  border-radius: 50%;
+  line-height: 35px;
+  width: 35px;
+  height: 35px;
+  margin: 185px;
+  color: white;
 }
 
 .links img {
-    width: 22px;
+  width: 22px;
 }
 
 .links span {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    margin: 15px;
-    font-size: 15px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 15px;
+  font-size: 15px;
 }
 
-.bottom-links .links {
-    margin-top: 90px;
+.bottom-links {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: start;
 }
 
 .user-list {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    border-top: 1px solid #fff;
-    margin-top: 150px;
-    
-    img {
-        width: 50px;
-    }
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-top: 1px solid #fff;
+
+  img {
+    width: 50px;
+  }
+
+  span {
+    font-size: 15px;
+  }
 }
+
+.sidebar .top-links {
+  height: 70%;
+}
+
+.btn {
+  background-color: #1e293b;
+  border: none;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
