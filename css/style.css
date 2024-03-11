@@ -1,14 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
 body {
   background-color: #1e293b;
-  font-family: Inter, sans-serif, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   font-size: 16px;
   color: white;
 }
 
 .sidebar {
-  display: block;
-  justify-content: start;
-  align-items: center;
   border-radius: 10px;
   padding-left: 20px;
   padding-right: 10px;
@@ -20,9 +20,8 @@ body {
 .sidebar .image-text {
   display: flex;
   align-items: center;
-  position: relative;
+  column-gap: 10px;
   height: 100px;
-  width: 100%;
 }
 
 .image-text img {
@@ -31,19 +30,16 @@ body {
 
 .links {
   display: flex;
-  justify-content: start;
   align-items: center;
 }
 
 .arrow {
   position: fixed;
   text-align: center;
-  display: block;
   background: #1e293b;
   border-radius: 50%;
   line-height: 35px;
   width: 35px;
-  height: 35px;
   margin: 185px;
   color: white;
 }
@@ -53,23 +49,12 @@ body {
 }
 
 .links span {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
   margin: 15px;
   font-size: 15px;
 }
 
-.bottom-links {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: start;
-}
-
 .user-list {
   display: flex;
-  justify-content: start;
   align-items: center;
   border-top: 1px solid #fff;
 
@@ -94,4 +79,3 @@ body {
   margin-right: auto;
   cursor: pointer;
 }
-
