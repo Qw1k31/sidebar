@@ -17,20 +17,32 @@ body {
   background-color: black;
 }
 
+.sidebar .top-links {
+  height: 70%;
+}
+
 .sidebar .image-text {
   display: flex;
   align-items: center;
   column-gap: 10px;
   height: 100px;
-}
-
-.image-text img {
-  width: 30px;
+  img {
+    width: 30px;
+  }
 }
 
 .links {
   display: flex;
   align-items: center;
+
+  img {
+    width: 22px;
+  }
+
+  span {
+    margin: 15px;
+    font-size: 15px;
+  }
 }
 
 .arrow {
@@ -42,15 +54,6 @@ body {
   width: 35px;
   margin: 185px;
   color: white;
-}
-
-.links img {
-  width: 22px;
-}
-
-.links span {
-  margin: 15px;
-  font-size: 15px;
 }
 
 .user-list {
@@ -65,10 +68,6 @@ body {
   span {
     font-size: 15px;
   }
-}
-
-.sidebar .top-links {
-  height: 70%;
 }
 
 .btn {
